@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>1024</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1412</width>
+      <height>714</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Picture_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>690</width>
+      <height>687</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Picture_2">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>10</y>
+      <width>690</width>
+      <height>687</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>725</y>
+      <width>1412</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Config</string>
+     </attribute>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="midLineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Text  1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>54</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>text  2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>88</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>122</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>156</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  5</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Config_Text1">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>20</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>AVENT</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Config_Text2">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>54</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PHILIPS</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Config_Text3">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>88</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Config_Text4">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>122</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Config_Text5">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>156</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PushButton_Save">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>120</y>
+        <width>121</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(210, 105, 30);</string>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PushButton_Capture_Image">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>70</y>
+        <width>121</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>CAPTURE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PushButton_Open_Camera">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>20</y>
+        <width>121</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="text">
+       <string>OPEN</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="PushButton_Close_Camera">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>20</y>
+        <width>121</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255,0,0);</string>
+      </property>
+      <property name="text">
+       <string>CLOSED</string>
+      </property>
+     </widget>
+     <zorder>PushButton_Close_Camera</zorder>
+     <zorder>label_4</zorder>
+     <zorder>label_5</zorder>
+     <zorder>label_6</zorder>
+     <zorder>label_7</zorder>
+     <zorder>label_8</zorder>
+     <zorder>Config_Text1</zorder>
+     <zorder>Config_Text2</zorder>
+     <zorder>Config_Text3</zorder>
+     <zorder>Config_Text4</zorder>
+     <zorder>Config_Text5</zorder>
+     <zorder>PushButton_Save</zorder>
+     <zorder>PushButton_Capture_Image</zorder>
+     <zorder>PushButton_Open_Camera</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Output</string>
+     </attribute>
+     <widget class="QLineEdit" name="Output_Text1">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>24</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Output_Text2">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>58</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Output_Text3">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>92</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>92</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  3</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Output_Text5">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>160</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Output_Text4">
+      <property name="geometry">
+       <rect>
+        <x>121</x>
+        <y>126</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>58</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>text  2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>126</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>24</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="midLineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Text  1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  5</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Output_Indikator1">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>24</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Output_Indikator2">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>58</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Output_Indikator3">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>92</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Output_Indikator4">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>126</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Output_Indikator5">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>160</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Comm</string>
+     </attribute>
+     <widget class="QLineEdit" name="Comm_Text1">
+      <property name="geometry">
+       <rect>
+        <x>131</x>
+        <y>24</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>AVENT</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comm_Text2">
+      <property name="geometry">
+       <rect>
+        <x>131</x>
+        <y>58</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PHILIPS</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comm_Text3">
+      <property name="geometry">
+       <rect>
+        <x>131</x>
+        <y>92</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>92</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  3</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comm_Text5">
+      <property name="geometry">
+       <rect>
+        <x>131</x>
+        <y>160</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comm_Text4">
+      <property name="geometry">
+       <rect>
+        <x>131</x>
+        <y>126</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>58</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>text  2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>126</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>24</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="midLineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Text  1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>160</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  5</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>158</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  5</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comm_Text6">
+      <property name="geometry">
+       <rect>
+        <x>591</x>
+        <y>22</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Comm_Indikator3">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>90</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>56</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>text  2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Comm_Indikator2">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>56</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Comm_Indikator1">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>22</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>90</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Comm_Indikator4">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>124</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comm_Text8">
+      <property name="geometry">
+       <rect>
+        <x>591</x>
+        <y>90</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comm_Text7">
+      <property name="geometry">
+       <rect>
+        <x>591</x>
+        <y>56</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comm_Text9">
+      <property name="geometry">
+       <rect>
+        <x>591</x>
+        <y>124</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Comm_Text10">
+      <property name="geometry">
+       <rect>
+        <x>591</x>
+        <y>158</y>
+        <width>291</width>
+        <height>35</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>22</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="midLineWidth">
+       <number>2</number>
+      </property>
+      <property name="text">
+       <string>Text  1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Comm_Indikator5">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>158</y>
+        <width>41</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(78, 154, 6);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>124</y>
+        <width>101</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string>Text  4</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1440</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
